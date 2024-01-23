@@ -1,0 +1,41 @@
+.fundo{
+    
+    background-color: rgba(126, 212, 255, 0.825);
+}
+
+.calculadora{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.operacao{
+    border: none;
+    width: 50px;
+    height: 30px;
+    background-color: rgb(161, 161, 161);
+}
+
+.botao{
+    width: 50px;
+    height: 30px;
+}
+
+.igualdade{
+    background-color: rgb(247, 121, 76);
+    width: 50px;
+    height: 150px;
+}
+
+#resultado{
+    background-color: rgb(59, 55, 55);
+   width: 215px;
+   height: 50px;
+   font-size: 40px;
+   color: white;
+   text-align:right;
+    
+}
